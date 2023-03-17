@@ -1,0 +1,23 @@
+{
+  "name": "walletcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bip44": "^0.0.1",
+    "bitcoinjs-lib": "^6.1.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "seed": "^0.4.4",
+    "tiny-secp256k1": "^2.2.1"
+  }
+}
